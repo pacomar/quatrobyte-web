@@ -1,0 +1,4 @@
+.DS_Store
+app/lib/*
+dist/*
+node_modules/*
