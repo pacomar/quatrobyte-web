@@ -14,4 +14,4 @@ Versión: 0.0.1
 
 ### Usage
 
-Clona el repositorio, abre un terminal y escribe "npm install && bower install && gulp server". Abre tu editor y tu navegador en al dirección http://localhost:8080/ y comienza a programar
+Clona el repositorio, abre un terminal y escribe "npm install && bower install && gulp server". Abre tu editor y tu navegador en al dirección [localhost:8080](http://localhost:8080/) y comienza a programar
