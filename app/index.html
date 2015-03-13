@@ -1,87 +1,87 @@
 <!doctype html>
 <html lang="es-ES">
-    <head>
-        <base href="/">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>QUATROBYTE</title>
-        <meta name="description" content="Pagina web de quatrobyte.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="QuatroByte">
-        <!-- <link rel="icon" href="ico/favicon.ico"> -->
-        <!-- build:css css/style.min.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
-        <!-- endbower -->
-        <!-- inject:css -->
-        <link rel="stylesheet" href="/stylesheets/main.css">
-        <link rel="stylesheet" href="/stylesheets/vendor/justified-nav.css">
-        <!-- endinject -->
-        <!-- endbuild -->
-    </head>
+	<head>
+		<base href="/">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>QUATROBYTE</title>
+		<meta name="description" content="Pagina web de quatrobyte.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="QuatroByte">
+		<link rel="shortcut icon" href="/img/icon_quatrbyte_1.png" />
+		<!-- <link rel="icon" href="ico/favicon.ico"> -->
+		<!-- build:css css/style.min.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+		<!-- endbower -->
+		<!-- inject:css -->
+		<link rel="stylesheet" href="/stylesheets/main.css">
+		<link rel="stylesheet" href="/stylesheets/vendor/justified-nav.css">
+		<!-- endinject -->
+		<!-- endbuild -->
+	</head>
 
 
-    <body ng-app="web">
-        <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top cabecera-custom" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">
-                        <img id="logo_menu_top" src="img/quatrobyte_logo.png" alt="">
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li ng-class="{ active: isActive('/')}"><a href="/">Inicio</a></li>
-                        <li ng-class="{ active: isActive('/projects')}"><a href="/projects">Proyectos</a></li>
-                        <li ng-class="{ active: isActive('/services')}"><a href="/services">Servicios</a></li>
-                        <li ng-class="{ active: isActive('/about')}"><a href="/about">Acerca</a></li>
-                        <li ng-class="{ active: isActive('/contact')}"><a href="/contact">Contacto</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+	<body ng-app="web">
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top cabecera-custom" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" id="button_toogle_menu_top" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a id="logo_quatrobyte" class="navbar-brand" href="/">
+					</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li ng-class="{ active: isActive('/')}"><a href="/">Inicio</a></li>
+						<li ng-class="{ active: isActive('/projects')}"><a href="/projects">Proyectos</a></li>
+						<li ng-class="{ active: isActive('/services')}"><a href="/services">Servicios</a></li>
+						<li ng-class="{ active: isActive('/about')}"><a href="/about">Acerca</a></li>
+						<li ng-class="{ active: isActive('/contact')}"><a href="/contact">Contacto</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
 
-        <div id="main_container" class="container" ng-view>
+		<div id="main_container" class="container" ng-view>
 
-        </div>
+		</div>
 
-        <div class="container">
-            <footer>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>Copyright &copy; Quatrobyte 2015</p>
-                    </div>
-                </div>
-            </footer>
-        </div>
-        <!-- build:js js/vendor.min.js -->
-        <!-- bower:js -->
-        <script src="lib/jquery/dist/jquery.js"></script>
-        <script src="lib/angular/angular.js"></script>
-        <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="lib/angular-route/angular-route.js"></script>
-        <script src="lib/angular-resource/angular-resource.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:js js/app.min.js -->
-        <!-- inject:js -->
-        <script src="/scripts/app.js"></script>
-        <script src="/scripts/controllers.js"></script>
-        <script src="/scripts/main.js"></script>
-        <script src="/scripts/services.js"></script>
-        <script src="/scripts/templates.js"></script>
-        <!-- endinject -->
-        <!-- endbuild -->
-    </body>
+		<div class="container">
+			<footer>
+				<div class="row">
+					<div class="col-lg-12">
+						<p>Copyright &copy; Quatrobyte 2015</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- build:js js/vendor.min.js -->
+		<!-- bower:js -->
+		<script src="lib/jquery/dist/jquery.js"></script>
+		<script src="lib/angular/angular.js"></script>
+		<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="lib/angular-route/angular-route.js"></script>
+		<script src="lib/angular-resource/angular-resource.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+		<!-- build:js js/app.min.js -->
+		<!-- inject:js -->
+		<script src="/scripts/app.js"></script>
+		<script src="/scripts/controllers.js"></script>
+		<script src="/scripts/main.js"></script>
+		<script src="/scripts/services.js"></script>
+		<script src="/scripts/templates.js"></script>
+		<!-- endinject -->
+		<!-- endbuild -->
+	</body>
 </html>
