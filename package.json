@@ -17,7 +17,8 @@
     "url": "https://github.com/pacomar/quatrobyte-web.git"
   },
   "dependencies": {
-    "coffee-script": "^1.8.0"
+    "coffee-script": "^1.8.0",
+    "imagemin-optipng": "^4.2.0"
   },
   "devDependencies": {
     "connect-history-api-fallback": "0.0.5",
@@ -33,6 +34,7 @@
     "gulp-uncss": "^0.5.1",
     "gulp-useref": "^1.0.2",
     "imagemin-jpegtran": "^4.1.0",
+    "imagemin-optipng": "^4.2.0",
     "jshint": "^2.5.6",
     "jshint-stylish": "^1.0.0",
     "nib": "^1.0.4",
