@@ -17,8 +17,7 @@
     "url": "https://github.com/pacomar/quatrobyte-web.git"
   },
   "dependencies": {
-    "coffee-script": "^1.8.0",
-    "imagemin-optipng": "^4.2.0"
+    "coffee-script": "^1.8.0"
   },
   "devDependencies": {
     "connect-history-api-fallback": "0.0.5",
