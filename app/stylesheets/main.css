@@ -33,6 +33,16 @@ footer {
 				padding: 15px 0;
 		}
 }
+.navbar-custom{
+	margin:0px 0px 0px 40px;
+}
+
+.img-border{
+	border:1px solid black;
+}
+.textos_descripcion_servicios{
+	margin:0px 0px 50px 0px;
+}
 
 #logo_menu_top{
 	width: 305px;
@@ -45,7 +55,7 @@ footer {
 	color: #777777;
 	border-color: #777777;
 	box-shadow: 0px -4px 37px rgb(152, 152, 152);
-	font-family: 'Trebuchet MS';
+	
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
