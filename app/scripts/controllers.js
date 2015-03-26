@@ -11,8 +11,9 @@
     function IndexCtrl (Post) {
         this.posts = Post.query();
     }
-    function ProjectsCtrl (Post) {
-        this.posts = Post.query();
+    function ProjectsCtrl (Project) {
+    	//TODO: Hay que coger los datos de: http://localhost:3000/projects, se cogen desde services.
+        this.projects = Project.query();
     }
     function ServicesCtrl (Post) {
         this.posts = Post.query();
