@@ -1,7 +1,10 @@
 (function () {
 	'use strict';
 	angular.module('web', ['ngRoute', 'web.controllers']);
+<<<<<<< HEAD
+=======
 	//angular.module('web', ['ngRoute', 'web.templates', 'web.controllers']); //para produccion
+>>>>>>> db678fce3e43ddc6361e2a53432f495fbe3fe4fe
 	function config ($locationProvider, $routeProvider) {
 		$locationProvider.html5Mode({
 			enabled: true,
